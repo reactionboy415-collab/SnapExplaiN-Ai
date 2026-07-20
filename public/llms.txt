@@ -1,0 +1,23 @@
+# SnapExplaiN AI
+
+Point. Snap. Understand.
+
+SnapExplaiN AI is an advanced AI visual explainer. Users can upload any image, and our system automatically identifies the object/document and provides highly tailored, deep contextual insights.
+
+## Core API Endpoint
+
+`POST /api/describe`
+- Accept: application/json
+- Payload: `{"base64Url": "data:image/png;base64,..."}`
+- Response: `{"result": "Analysis text", "generatedAt": "2026-07-20T..."}`
+
+## Supported Use Cases
+
+- Government documents (ID checks, bills)
+- Medical prescriptions and health labels
+- Food nutrition/ingredient labels
+- Vehicle dashboard warning light identifiers
+- Homework & diagrams
+- Plants & electronic components
+
+https://snap-explain-ai.vercel.app/
