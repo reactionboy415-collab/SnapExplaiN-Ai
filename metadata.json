@@ -1,0 +1,6 @@
+{
+  "name": "SnapExplaiN AI",
+  "description": "Point. Snap. Understand. An AI-powered visual assistant that instantly recognizes and explains any image you upload.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
